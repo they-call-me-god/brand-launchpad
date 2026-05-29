@@ -1,10 +1,30 @@
-# brand-launchpad
+<div align="center">
+
+# 🚀 brand-launchpad
+
+### Name one project. Get a complete brand launch back — in a single Claude Code run.
+
+**12 files. Real frameworks. Zero fluff.** Positioning, hero line, a 30-day calendar, and a content system that actually ships — generated in one pass.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg?style=flat-square)](LICENSE)
+[![Made for Claude Code](https://img.shields.io/badge/Made%20for-Claude%20Code-6366f1.svg?style=flat-square)](https://claude.com/claude-code)
+[![Stars](https://img.shields.io/github/stars/they-call-me-god/brand-launchpad?style=flat-square&color=eab308)](https://github.com/they-call-me-god/brand-launchpad/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-22c55e.svg?style=flat-square)](https://github.com/they-call-me-god/brand-launchpad/pulls)
+[![Version](https://img.shields.io/badge/version-1.0.0-6366f1.svg?style=flat-square)](CHANGELOG.md)
+
+[**Install**](#install) · [**What you get**](#what-you-get-from-one-run) · [**Why it's different**](#why-this-is-different) · [**Examples**](examples/)
+
+</div>
+
+---
 
 > Most brand advice hands you a list of tips and tells you to post seven times a week. This is a Claude Code skill instead: name one project, get back twelve files (positioning, hero line, 30-day calendar, a real content system) in a single run, built on frameworks that actually ship.
 
 A reusable [Claude Code](https://claude.com/claude-code) skill that turns
 one project (or one person) into a complete brand launch plan in a single
 run. Twelve files, real frameworks, no fluff.
+
+> ⭐ **If this saves you a weekend of brand-strategy guesswork, star the repo** — it's the only signal that tells me to keep shipping updates.
 
 ## Install
 
@@ -111,6 +131,20 @@ The full 11-step process is in [SKILL.md](SKILL.md). Highlights:
 - **Step 6b**: Source-artifact pipeline — 1 real event becomes 5 to 12 posts
 - **Step 6c**: 4 to 6 named recurring series with first-2-second banners
 - **Step 9**: Day-21 real-deployment milestone for service/product brands
+
+## Contributing
+
+PRs welcome — especially new brand-type variants and real-world example runs. Fork, branch, and open a PR. If you ship a brand with this, open an issue with the link; the best ones go in `examples/`.
+
+## ⭐ Star this repo
+
+If brand-launchpad gave you a usable plan, **a star is the fastest way to say thanks** — and it's how other builders discover the skill. No newsletter, no signup. Just the star.
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=they-call-me-god/brand-launchpad&type=Date)](https://star-history.com/#they-call-me-god/brand-launchpad&Date)
+
+</div>
 
 ## Status
 
