@@ -1,0 +1,7 @@
+# Activity Log
+
+Auto-appended once a day by [`.github/workflows/daily-green.yml`](.github/workflows/daily-green.yml).
+Keeps the contribution graph warm and prevents GitHub from disabling the
+scheduled workflow after 60 days of inactivity. Not meaningful history.
+
+- 2026-05-29 init

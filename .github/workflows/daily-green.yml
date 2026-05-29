@@ -1,0 +1,45 @@
+name: daily-green
+
+# Appends one line to activity-log.md every day and commits it.
+# Two purposes:
+#   1. Keeps the contribution graph warm (commit is authored by the
+#      account's GitHub noreply email, so it counts toward contributions).
+#   2. Keeps this scheduled workflow alive (GitHub disables schedules after
+#      60 days of repo inactivity; a daily commit resets that clock).
+
+on:
+  schedule:
+    # 04:17 UTC daily. Off the :00 mark on purpose so it is not competing
+    # with every other cron on the platform at the top of the hour.
+    - cron: "17 4 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-green
+  cancel-in-progress: false
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Append heartbeat line
+        run: |
+          echo "- $(date -u '+%Y-%m-%d %H:%M UTC') keepalive" >> activity-log.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "they-call-me-god"
+          git config user.email "173814476+they-call-me-god@users.noreply.github.com"
+          git add activity-log.md
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+            exit 0
+          fi
+          git commit -m "chore: daily activity log $(date -u '+%Y-%m-%d')"
+          git push
