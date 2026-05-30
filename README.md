@@ -26,6 +26,26 @@ run. Twelve files, real frameworks, no fluff.
 
 > ⭐ **If this saves you a weekend of brand-strategy guesswork, star the repo** — it's the only signal that tells me to keep shipping updates.
 
+## See it run
+
+<!-- TO ADD THE REAL DEMO: record a run, save it as assets/demo.png (or demo.gif),
+     then delete this comment and the two HTML-comment markers around the line below. -->
+<!-- ![brand-launchpad generating a full brand in one run](assets/demo.png) -->
+
+One prompt in, twelve files out:
+
+```text
+You ▸ build a brand for my SaaS "Inboxly"
+
+Claude ▸ Using brand-launchpad…
+  ✓ brand-journey.md      reverse-engineered from your 12-month outcome
+  ✓ positioning.md        "Inboxly is the inbox that answers itself."
+  ✓ hero-line.md          3-rule tested · 12 words · 21 rewrites logged
+  ✓ recurring-series.md   5 named series + banners
+  ✓ 30-day-plan.md        Day 1 … Day 30, dated, with a Day-21 proof milestone
+  … 7 more files written to Projects/inboxly/brand/
+```
+
 ## Install
 
 Drop the skill into your Claude Code skills directory:
