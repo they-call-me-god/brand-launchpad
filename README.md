@@ -10,8 +10,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg?style=flat-square)](LICENSE)
 [![Made for Claude Code](https://img.shields.io/badge/Made%20for-Claude%20Code-6366f1.svg?style=flat-square)](https://claude.com/claude-code)
-[![Stars](https://img.shields.io/github/stars/they-call-me-god/brand-launchpad?style=flat-square&color=eab308)](https://github.com/they-call-me-god/brand-launchpad/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-22c55e.svg?style=flat-square)](https://github.com/they-call-me-god/brand-launchpad/pulls)
+[![Stars](https://img.shields.io/github/stars/shauryalowkeygotaura/brand-launchpad?style=flat-square&color=eab308)](https://github.com/shauryalowkeygotaura/brand-launchpad/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-22c55e.svg?style=flat-square)](https://github.com/shauryalowkeygotaura/brand-launchpad/pulls)
 [![Version](https://img.shields.io/badge/version-1.0.0-6366f1.svg?style=flat-square)](CHANGELOG.md)
 
 [**Install**](#install) · [**What you get**](#what-you-get-from-one-run) · [**Why it's different**](#why-this-is-different) · [**Examples**](examples/)
@@ -55,7 +55,7 @@ Drop the skill into your Claude Code skills directory:
 ```bash
 # macOS / Linux
 mkdir -p ~/.claude/skills/brand-launchpad
-curl -L https://raw.githubusercontent.com/they-call-me-god/brand-launchpad/main/SKILL.md \
+curl -L https://raw.githubusercontent.com/shauryalowkeygotaura/brand-launchpad/main/SKILL.md \
   -o ~/.claude/skills/brand-launchpad/SKILL.md
 ```
 
@@ -63,7 +63,7 @@ curl -L https://raw.githubusercontent.com/they-call-me-god/brand-launchpad/main/
 # Windows
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills\brand-launchpad"
 Invoke-WebRequest `
-  -Uri "https://raw.githubusercontent.com/they-call-me-god/brand-launchpad/main/SKILL.md" `
+  -Uri "https://raw.githubusercontent.com/shauryalowkeygotaura/brand-launchpad/main/SKILL.md" `
   -OutFile "$env:USERPROFILE\.claude\skills\brand-launchpad\SKILL.md"
 ```
 
@@ -164,7 +164,7 @@ If brand-launchpad gave you a usable plan, **a star is the fastest way to say th
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=they-call-me-god/brand-launchpad&type=Date)](https://star-history.com/#they-call-me-god/brand-launchpad&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=shauryalowkeygotaura/brand-launchpad&type=Date)](https://star-history.com/#shauryalowkeygotaura/brand-launchpad&Date)
 
 </div>
 
@@ -178,7 +178,7 @@ v1.0.0 released 2026-05-29. See [CHANGELOG.md](CHANGELOG.md).
 
 ## Credit
 
-Built by [@they-call-me-god](https://github.com/they-call-me-god). Sources
+Built by [@shauryalowkeygotaura](https://github.com/shauryalowkeygotaura). Sources
 attributed inline.
 
 #claude-code #claude-skill #personal-brand #content-strategy #brand-strategy
