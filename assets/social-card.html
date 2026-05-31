@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1280px; height:640px; }
+  body {
+    font-family:'JetBrains Mono', ui-monospace, monospace;
+    background:#0a0a0a;
+    background-image:
+      radial-gradient(900px 500px at 88% -10%, rgba(99,102,241,.22), transparent 60%),
+      radial-gradient(800px 500px at 4% 115%, rgba(34,197,94,.20), transparent 60%);
+    color:#e7e7ea;
+    padding:74px 80px;
+    display:flex; flex-direction:column; justify-content:space-between;
+    position:relative; overflow:hidden;
+  }
+  .grid { position:absolute; inset:0;
+    background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+    background-size:40px 40px; }
+  .top { display:flex; align-items:center; gap:14px; font-size:22px; color:#9aa0a6; z-index:1; }
+  .dot { width:13px; height:13px; border-radius:50%; background:#22c55e; box-shadow:0 0 16px #22c55e; }
+  .mid { z-index:1; }
+  h1 { font-size:96px; font-weight:800; letter-spacing:-3px; line-height:1; }
+  h1 .rocket { font-weight:400; }
+  .grad { background:linear-gradient(90deg,#22c55e,#6366f1); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .tag { font-size:40px; font-weight:700; margin-top:26px; color:#f4f4f5; letter-spacing:-1px; }
+  .sub { font-size:25px; color:#a1a1aa; margin-top:18px; font-weight:400; }
+  .chips { display:flex; gap:14px; margin-top:34px; }
+  .chip { font-size:21px; font-weight:700; padding:11px 20px; border-radius:11px;
+          border:1px solid rgba(255,255,255,.12); background:rgba(255,255,255,.04); }
+  .chip b { color:#22c55e; }
+  .chip i { color:#818cf8; font-style:normal; }
+  .bottom { display:flex; justify-content:space-between; align-items:flex-end; z-index:1; font-size:23px; }
+  .repo { color:#e7e7ea; font-weight:700; }
+  .repo span { color:#6b7280; font-weight:400; }
+  .lic { color:#22c55e; font-weight:700; }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="top"><span class="dot"></span> a Claude Code skill</div>
+  <div class="mid">
+    <h1><span class="rocket">🚀 </span><span class="grad">brand-launchpad</span></h1>
+    <div class="tag">One project in. A full brand launch out.</div>
+    <div class="sub">Positioning · hero line · 30-day calendar · a content system that ships.</div>
+    <div class="chips">
+      <div class="chip"><b>12 files</b></div>
+      <div class="chip">in <i>one run</i></div>
+      <div class="chip">Ralston · Harry Dry · Oren John · Brier Cochran</div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="repo">github.com/they-call-me-god<span>/brand-launchpad</span></div>
+    <div class="lic">MIT</div>
+  </div>
+</body>
+</html>

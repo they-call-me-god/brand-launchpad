@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/social-preview.png" alt="brand-launchpad — one project in, a full brand launch out. 12 files in one run." width="100%" />
+
 # 🚀 brand-launchpad
 
 ### Name one project. Get a complete brand launch back — in a single Claude Code run.
