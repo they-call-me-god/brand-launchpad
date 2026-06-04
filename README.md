@@ -140,6 +140,8 @@ See [`examples/`](examples/) for representative runs across brand types:
 
 - [SaaS product example](examples/saas-product-example.md)
 - [Service business example](examples/service-business-example.md)
+- [Open-source tool example](examples/oss-tool-example.md)
+- [Newsletter example](examples/newsletter-example.md)
 
 ## Process (full detail)
 

@@ -7,6 +7,8 @@ numbers, and outputs in these examples are illustrative.
 |------|-----------|--------------------------------|
 | [saas-product-example.md](saas-product-example.md) | Product | A SaaS or paid app |
 | [service-business-example.md](service-business-example.md) | Service | An agency or consulting practice |
+| [oss-tool-example.md](oss-tool-example.md) | OSS | An open-source tool or library |
+| [newsletter-example.md](newsletter-example.md) | Newsletter | A paid or free newsletter |
 
 Each example shows representative output from the most important steps
 (positioning sentence, hero-line table, named series, Day-21 milestone).
